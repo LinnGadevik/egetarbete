@@ -52,11 +52,11 @@ input[type="radio"] + label {
 	padding: 0.5em 0em;
 	border: 2px dotted black;
 }
-input [type="checkbox"] {
+input[type="checkbox"] {
 	/* Väldigt lite styling fungerar på en checkbox */
-	 border: 4px dashed red;
+	/* border: 4px dashed red;
 	padding: 1em;
-	display: block; 
+	display: block; */
 	
 }
 
