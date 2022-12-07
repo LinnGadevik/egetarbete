@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Form demo </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1> Bättre Webb </h1>
+	<!-- Standardinställningen för ett formulär är att skicka datan inuti formuläret till samma URL. Dvs index.html -->
+
+	<div class="menu">
+		<label for="toggle-menu"> Öppna meny </label>
+		<input id="toggle-menu" type="checkbox" checked />
+		<div class="actual-menu"> välkommen till oss på bättre webb! I år har vi 12 olika seminarier under 3 dagar, 9/12-11/12 och ni själva
+			kan välja vilka dagar ni vill gå på! </div>
+	</div>
+
+	<form>
+		<p> Skriv in dina personuppgifter! </p>
+		<div class="form-layout">
+			<label for="input-name"> Namn </label>
+			<input id="input-name" type="text" value="" placeholder="Erica Persson" required />
+			<p class="error-message"> </p>
+		</div>
+
+		<div class="form-layout">
+			<label for="input-phone"> e-mail </label>
+			<input id="input-phone" type="text" value="" placeholder="erica.persson@gmail.com" required minlength="8" maxlength="30" />
+			<p class="error-message">  </p>
+		</div>
+
+		<div class="form-layout">
+			<label for="newsletter-age"> Adress </label>
+			<input id="newsletter-age" type="text" value="" placeholder="Storgatan 3, 65621" required min="6" />
+			
+			<div>
+				<input id="input-newsletter" type="checkbox" value="" />
+				<label for="input-newsletter"> Ja, jag vill ha nyhetsbrevet </label>
+			</div>
+		</div>
+
+		<div class="form-layout">
+			<label>Vilka dagar vill du gå?</label>
+			<div>
+				<input type="radio" name="radio-news" id="radio1" required />
+				<label for="radio1"> 9/12 </label>
+			</div>
+			<div>
+				<input type="radio" name="radio-news" id="radio2" />
+				<label for="radio2"> 10/12 </label>
+			</div>
+			<div>
+				<input type="radio" name="radio-news" id="radio3" />
+				<label for="radio3"> 11/12 </label>
+			</div>
+			<div>
+				<input type="radio" name="radio-news" id="radio4" />
+				<label for="radio4"> Alla dagar </label>
+			</div>
+
+		</div>
+		
+
+
+		<button type="submit"> <strong>Spara</strong> datan </button>
+		<button type="reset"> Rensa datan </button>
+		<!-- type="button" används med JavaScript -->
+		<button type="button"> Jag är helt vanlig </button>
+		<!-- <input type="submit" value="Använd inte den här" /> -->
+	</form>
+</body>
+</html>
