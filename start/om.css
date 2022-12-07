@@ -1,0 +1,219 @@
+*{
+    font-family: 'Radio Canada', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+	min-height: 100%;
+	width: 100%;
+	min-width: 400px;
+	background-color: #F3F4FB
+}
+html{
+    height: 100%;
+    min-width: 400px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.grid h3{
+    color: #000000;
+}
+.beskrivning{
+    width: 25em;
+    align-items: center;
+    padding: 0 0 1em 1.5em;
+
+}
+.wrapper2 p{
+    font-weight: 600;
+}
+.detail{
+    margin-bottom: 0.5em;
+}
+
+header { 
+    display: flex; 
+    flex-direction: column; 
+    max-width: 100%; 
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 0;
+} 
+.loggaochsearch { 
+    width: 90vw; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+} 
+ul { 
+    width: 90vw; 
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-evenly; 
+    margin-bottom: 1em; 
+    flex-wrap: wrap;
+} 
+
+.titel{
+    padding: 0 0 0.5em 0;
+}
+.feelwell { 
+    height: 4.5em; 
+    margin: 1em; 
+} 
+.garanti > p { 
+    text-align: center; 
+} 
+.search { 
+    border: 1px solid #414149; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 10em; 
+    height: 2em; 
+    margin-top: 2.5em; 
+    border-radius: 5px; 
+    padding-left: 1em; 
+    cursor: text;
+} 
+
+ul li{ 
+    margin: 1em 0 1em 1em; 
+    font-weight: bold; 
+    text-align: center; 
+     
+} 
+ul a{ 
+    text-decoration: none; 
+    color: #414149; 
+} 
+ul li:hover{ 
+    text-decoration: underline; 
+} 
+li:last-child { 
+    font-weight: 500; 
+} 
+.ri-account-circle-line { 
+    font-weight: 400; 
+    font-size: 1.5em; 
+    text-align: center; 
+} 
+.garanti > p { 
+    color: #F3F4FB; 
+} 
+.ri-hand-heart-line { 
+    font-size: 1.5em; 
+    padding-right: 0.5em; 
+    color: #F3F4FB; 
+} 
+
+
+
+
+.textomoss {
+	text-align: start;
+	margin-left: 1em;
+}
+.headshot {
+    width: 10em;
+    height: 10em;
+	flex-shrink: 0;
+	border-radius: 5px;
+    object-fit: cover;
+}
+h2 {
+    color: #000000;
+	padding: 1em;
+	align-items: center;
+}
+
+.wrapper {
+	border-radius: 5px;
+    min-width: 23em;
+	margin: 2em 1em;
+	max-width: 35em;
+}
+.wrapper2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-shrink: 1;
+	border-radius: 5px;
+	margin: 2.5em 1em;
+	border: 1px solid #414149;
+	padding: 2em;
+}
+.wrapper2 p{
+	padding: 1em;
+	color: #414149;
+}
+.wrapper2 > h2{
+	color: #234C9F
+}
+
+.karta{
+	border-radius: 5px;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	max-width: 20em;
+}
+.wrapper2:last-child{
+	padding-bottom: 2em;
+}
+.titel{
+	color: #252121;
+
+	font-weight: bold;
+}
+
+
+@media (min-width:850px) {
+    .wrapper {
+      border-radius: 5px;
+    }  
+	.wrapper2 {
+		max-width: 23em;
+		margin-bottom: 0;
+	}
+      footer{ 
+        display: flex; 
+        justify-content: space-evenly; 
+        align-items: center; 
+    } 
+ .social > p { 
+        padding-bottom: 3em; 
+    } 
+ .villkor > p{ 
+        font-size: 0.8em; 
+    } 
+    .help > p{ 
+        font-size: 0.8em; 
+    } 
+    .social{ 
+        font-size: 0.8em; 
+    }
+	.grid{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+    .search{ 
+        width: 11.85em; 
+        height: 2.4em; 
+		cursor: text;
+    } 
+    .feelwell{ 
+        height: 6em; 
+        margin: 1em; 
+    }
+    .kat ul{
+		font-size: 1.15em;
+	}
+    }
