@@ -7,30 +7,31 @@
 	<title> hello </title>
 	<link rel="stylesheet" href="formcss.css">
 </head>
+
+<body>
 <header> 
+
         <div class="loggaochsearch"> 
             <h1>Bättre Webb</h1>
-          <a href="/Om Seminarierna/start.html"><img src="" class="Bättre Webb"> </a>
+          <a href="/Anmäl här/formhtml.html"><img src="" class="Bättre Webb"> </a>
             <p class="search">Sök</p> 
         </div> 
         <div class="kat"> 
             <ul> 
-                <li><a href="/Startsidan/formhtml.html">Startsidan</a></li> 
+                
                 <li><a href="/Om seminarierna/Om.html">Om seminarierna</a></li> 
                 <li><a href="/Anmäl här/formhtml.html"> Anmäl här</a></li> 
                 
             </ul> 
         </div> 
 </header>
-<body>
-
-
-	<div class="menu">
+<main>
+	<article class="menu">
 		<label for="toggle-menu"> Öppna meny </label>
 		<input id="toggle-menu" type="checkbox" checked />
-		<div class="actual-menu"> välkommen till oss på bättre webb! I år har vi 12 olika seminarier under 3 dagar, 9/12-11/12 och ni själva
-			kan välja vilka dagar ni vill gå på! </div>
-	</div>
+		<p class="actual-menu"> välkommen till oss på bättre webb, den årliga konferensen för frontendutvecklare! I år har vi 10 olika seminarier här i Karlstad som pågår under 3 dagar, 9/12-11/12 och ni själva
+			kan välja vilka dagar ni vill gå på! </p>
+	</article>
 
 	<form>
 		<p> Anmäl dig här! Skriv in dina personuppgifter! </p>
@@ -48,11 +49,12 @@
 
 		<div class="form-layout">
 			<label for="newsletter-age"> Adress </label>
+			
 			<input id="newsletter-age" type="text" value="" placeholder="Storgatan 3, 65621" required min="6" />
 			<div class="allergier">
 				<label for="toggle-menu"> Allergier </label>
 				<input id="toggle-menu" type="checkbox" checked />
-				<div class="actual-menu"> Ja </div>
+				<div class="actual-menu"> <input type="text"> </div>
 			</div>
 			<div>
 				<input id="input-newsletter" type="checkbox" value="" />
@@ -60,50 +62,52 @@
 			</div>
 		</div>
 
-		<div class="form-layout">
-			<label>Vilka dagar vill du gå?</label>
+		<fieldset class="form-layout" id="group 1">
+			<label>Vilka dagar vill du vara med på?</label>
 			<div>
-				<input type="radio" name="radio-news" id="radio1" required />
+				<input name="group-1" type="radio" name="radio-news" id="radio1" required />
 				<label for="radio1"> 9/12 </label>
 			</div>
 			<div>
-				<input type="radio" name="radio-news" id="radio2" />
+				<input name="group-1" type="radio" name="radio-news" id="radio2" />
 				<label for="radio2"> 10/12 </label>
 			</div>
 			<div>
-				<input type="radio" name="radio-news" id="radio3" />
+				<input name="group-1" type="radio" name="radio-news" id="radio3" />
 				<label for="radio3"> 11/12 </label>
 			</div>
 			<div>
-				<input type="radio" name="radio-news" id="radio4" />
+				<input name="group-1" type="radio" name="radio-news" id="radio4" />
 				<label for="radio4"> Alla dagar </label>
 			</div>
 
-		</div>
-		<div class="form-layout">
+		</fieldset>
+		<fieldset class="form-layout" id="group 2">
+			
 			<label>Vad kan du äta?</label>
 			<div>
-				<input type="radio" name="radio-news" id="radio1" required />
+				<input name="group-2" type="radio" name="radio-news" id="radio1" required />
 				<label for="radio1"> Kött </label>
 			</div>
 			<div>
-				<input type="radio" name="radio-news" id="radio2" />
+				<input name="group-2" type="radio" name="radio-news" id="radio2" />
 				<label for="radio2"> Fisk </label>
 			</div>
 			<div>
-				<input type="radio" name="radio-news" id="radio3" />
+				<input name="group-2" type="radio" name="radio-news" id="radio3" />
 				<label for="radio3"> Vegetariskt </label>
 			</div>
 			<div>
-				<input type="radio" name="radio-news" id="radio4" />
+				<input name="group-2" type="radio" name="radio-news" id="radio4" />
 				<label for="radio4"> Allt </label>
 			</div>
 			
-		</div>
+		</fieldset>
 
 
 		<button type="submit"> <strong>Klar</strong> </button>
 		
 	</form>
+</main>
 </body>
 </html>

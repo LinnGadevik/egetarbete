@@ -38,7 +38,10 @@ ul {
     margin-bottom: 1em; 
     flex-wrap: wrap;
 } 
-
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .titel{
     padding: 0 0 0.5em 0;
 }
