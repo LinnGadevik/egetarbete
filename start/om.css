@@ -64,10 +64,7 @@ ul {
 .titel{
     padding: 0 0 0.5em 0;
 }
-.feelwell { 
-    height: 4.5em; 
-    margin: 1em; 
-} 
+
 .garanti > p { 
     text-align: center; 
 } 
@@ -97,22 +94,10 @@ ul a{
 ul li:hover{ 
     text-decoration: underline; 
 } 
-li:last-child { 
-    font-weight: 500; 
-} 
-.ri-account-circle-line { 
-    font-weight: 400; 
-    font-size: 1.5em; 
-    text-align: center; 
-} 
-.garanti > p { 
-    color: #F3F4FB; 
-} 
-.ri-hand-heart-line { 
-    font-size: 1.5em; 
-    padding-right: 0.5em; 
-    color: #F3F4FB; 
-} 
+
+
+
+
 
 
 

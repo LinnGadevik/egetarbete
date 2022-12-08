@@ -4,12 +4,26 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Form demo </title>
-	<link rel="stylesheet" href="style.css">
+	<title> hello </title>
+	<link rel="stylesheet" href="formcss.css">
 </head>
+<header> 
+        <div class="loggaochsearch"> 
+            <h1>Bättre Webb</h1>
+          <a href="/Om Seminarierna/start.html"><img src="" class="Bättre Webb"> </a>
+            <p class="search">Sök</p> 
+        </div> 
+        <div class="kat"> 
+            <ul> 
+                <li><a href="/Startsidan/formhtml.html">Startsidan</a></li> 
+                <li><a href="/Om seminarierna/Om.html">Om seminarierna</a></li> 
+                <li><a href="/Anmäl här/formhtml.html"> Anmäl här</a></li> 
+                
+            </ul> 
+        </div> 
+</header>
 <body>
-	<h1> Bättre Webb </h1>
-	<!-- Standardinställningen för ett formulär är att skicka datan inuti formuläret till samma URL. Dvs index.html -->
+
 
 	<div class="menu">
 		<label for="toggle-menu"> Öppna meny </label>
@@ -19,7 +33,7 @@
 	</div>
 
 	<form>
-		<p> Skriv in dina personuppgifter! </p>
+		<p> Anmäl dig här! Skriv in dina personuppgifter! </p>
 		<div class="form-layout">
 			<label for="input-name"> Namn </label>
 			<input id="input-name" type="text" value="" placeholder="Rachel Green" required />
@@ -35,7 +49,11 @@
 		<div class="form-layout">
 			<label for="newsletter-age"> Adress </label>
 			<input id="newsletter-age" type="text" value="" placeholder="Storgatan 3, 65621" required min="6" />
-			
+			<div class="allergier">
+				<label for="toggle-menu"> Allergier </label>
+				<input id="toggle-menu" type="checkbox" checked />
+				<div class="actual-menu"> Ja </div>
+			</div>
 			<div>
 				<input id="input-newsletter" type="checkbox" value="" />
 				<label for="input-newsletter"> Ja, jag vill ha nyhetsbrevet </label>
@@ -62,7 +80,26 @@
 			</div>
 
 		</div>
-		
+		<div class="form-layout">
+			<label>Vad kan du äta?</label>
+			<div>
+				<input type="radio" name="radio-news" id="radio1" required />
+				<label for="radio1"> Kött </label>
+			</div>
+			<div>
+				<input type="radio" name="radio-news" id="radio2" />
+				<label for="radio2"> Fisk </label>
+			</div>
+			<div>
+				<input type="radio" name="radio-news" id="radio3" />
+				<label for="radio3"> Vegetariskt </label>
+			</div>
+			<div>
+				<input type="radio" name="radio-news" id="radio4" />
+				<label for="radio4"> Allt </label>
+			</div>
+			
+		</div>
 
 
 		<button type="submit"> <strong>Klar</strong> </button>
