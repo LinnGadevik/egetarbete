@@ -95,13 +95,6 @@ ul li:hover{
     text-decoration: underline; 
 } 
 
-
-
-
-
-
-
-
 .textomoss {
 	text-align: start;
 	margin-left: 1em;
@@ -139,16 +132,8 @@ h2 {
 	padding: 1em;
 	color: #414149;
 }
-.wrapper2 > h2{
-	color: #234C9F
-}
 
-.karta{
-	border-radius: 5px;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
-	max-width: 20em;
-}
+
 .wrapper2:last-child{
 	padding-bottom: 2em;
 }
@@ -194,10 +179,7 @@ h2 {
         height: 2.4em; 
 		cursor: text;
     } 
-    .feelwell{ 
-        height: 6em; 
-        margin: 1em; 
-    }
+  
     .kat ul{
 		font-size: 1.15em;
 	}
