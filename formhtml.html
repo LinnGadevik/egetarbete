@@ -13,25 +13,23 @@
 
         <div class="loggaochsearch"> 
             <h1>Bättre Webb</h1>
-          <a href="/Anmäl här/formhtml.html"><img src="" class="Bättre Webb"> </a>
-            <p class="search">Sök</p> 
+          <a href="/formhtml.html"><img src="" class="Bättre Webb"> </a> 
         </div> 
         <div class="kat"> 
             <ul> 
                 
-                <li><a href="/Om seminarierna/Om.html">Om seminarierna</a></li> 
-                <li><a href="/Anmäl här/formhtml.html"> Anmäl här</a></li> 
+                <li><a href="start/Om.html">Om seminarierna</a></li> 
+                <li><a href="formhtml.html"> Anmäl här</a></li> 
                 
             </ul> 
         </div> 
 </header>
 <main>
-	<article class="menu">
-		<label for="toggle-menu"> Öppna meny </label>
-		<input id="toggle-menu" type="checkbox" checked />
+	<nav class="menu">
+		
 		<p class="actual-menu"> välkommen till oss på bättre webb, den årliga konferensen för frontendutvecklare! I år har vi 10 olika seminarier här i Karlstad som pågår under 3 dagar, 9/12-11/12 och ni själva
 			kan välja vilka dagar ni vill gå på! </p>
-	</article>
+		</nav>
 
 	<form>
 		<p> Anmäl dig här! Skriv in dina personuppgifter! </p>
@@ -42,19 +40,18 @@
 		</div>
 
 		<div class="form-layout">
-			<label for="input-phone"> e-mail </label>
-			<input id="input-phone" type="text" value="" placeholder="Rachel.Green@gmail.com" required minlength="8" maxlength="30" />
+			<label for="input-email"> e-mail </label>
+			<input id="input-email" type="text" value="" placeholder="Rachel.Green@gmail.com" required minlength="8" maxlength="30" />
 			<p class="error-message">  </p>
 		</div>
 
 		<div class="form-layout">
 			<label for="newsletter-age"> Adress </label>
-			
 			<input id="newsletter-age" type="text" value="" placeholder="Storgatan 3, 65621" required min="6" />
+		</div>
 			<div class="allergier">
 				<label for="toggle-menu"> Allergier </label>
-				<input id="toggle-menu" type="checkbox" checked />
-				<div class="actual-menu"> <input type="text"> </div>
+				<input id="actual-menu" type="text" value="" input type="text" /> </div>
 			</div>
 			<div>
 				<input id="input-newsletter" type="checkbox" value="" />
@@ -84,24 +81,57 @@
 		</fieldset>
 		<fieldset class="form-layout" id="group 2">
 			
-			<label>Vad kan du äta?</label>
+			<label>Beställ en maträtt för 9/12. Svara endast dagen eller dagarna du ska vara med på!</label>
 			<div>
 				<input name="group-2" type="radio" name="radio-news" id="radio1" required />
-				<label for="radio1"> Kött </label>
+				<label for="radio1"> Köttbullar, mos med brunsås </label>
 			</div>
 			<div>
 				<input name="group-2" type="radio" name="radio-news" id="radio2" />
-				<label for="radio2"> Fisk </label>
+				<label for="radio2"> Fiskbullar, dillsås och potatis </label>
 			</div>
 			<div>
 				<input name="group-2" type="radio" name="radio-news" id="radio3" />
-				<label for="radio3"> Vegetariskt </label>
+				<label for="radio3"> Nudelsoppa med tofu(Vegetariskt) </label>
+			</div>
+
+			
+			<div>
+				<fieldset class="form-layout" id="group 3">
+			
+				<label>Beställ en maträtt för 10/12. Svara endast dagen eller dagarna du ska vara med på!</label>
+				<div>
+					<input name="group-3" type="radio" name="radio-news" id="radio1" required />
+					<label for="radio1"> oxfile, pommes med rödvinsås </label>
+				</div>
+				<div>
+					<input name="group-3" type="radio" name="radio-news" id="radio2" />
+					<label for="radio2"> laxpasta med citronsås </label>
+				</div>
+				<div>
+					<input name="group-3" type="radio" name="radio-news" id="radio3" />
+					<label for="radio3"> Vegoköttfärsås med spagetti(Vegetariskt) </label>
+				</div>
+
+				
 			</div>
 			<div>
-				<input name="group-2" type="radio" name="radio-news" id="radio4" />
-				<label for="radio4"> Allt </label>
-			</div>
+				<fieldset class="form-layout" id="group 4">
 			
+					<label>Beställ en maträtt för 11/12. Svara endast dagen eller dagarna du ska vara med på!</label>
+					<div>
+						<input name="group-4" type="radio" name="radio-news" id="radio1" required />
+						<label for="radio1"> Hamburgare med klyftpotatis </label>
+					</div>
+					<div>
+						<input name="group-4" type="radio" name="radio-news" id="radio2" />
+						<label for="radio2"> torsk och potatis med äggsås </label>
+					</div>
+					<div>
+						<input name="group-4" type="radio" name="radio-news" id="radio3" />
+						<label for="radio3"> stekta grönsaker med potatis och tofu(Vegetariskt) </label>
+					</div>
+			</div>
 		</fieldset>
 
 

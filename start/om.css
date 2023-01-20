@@ -65,21 +65,6 @@ ul {
     padding: 0 0 0.5em 0;
 }
 
-.garanti > p { 
-    text-align: center; 
-} 
-.search { 
-    border: 1px solid #414149; 
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: center; 
-    width: 10em; 
-    height: 2em; 
-    margin-top: 2.5em; 
-    border-radius: 5px; 
-    padding-left: 1em; 
-    cursor: text;
-} 
 
 ul li{ 
     margin: 1em 0 1em 1em; 

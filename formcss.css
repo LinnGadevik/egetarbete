@@ -15,7 +15,6 @@ input::placeholder {
 }
 
 
-
 header { 
     display: flex; 
     flex-direction: column; 
@@ -46,21 +45,7 @@ main{
     padding: 0 0 0.5em 0;
 }
 
-.garanti > p { 
-    text-align: center; 
-} 
-.search { 
-    border: 1px solid #74747c; 
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: center; 
-    width: 10em; 
-    height: 2em; 
-    margin-top: 2.5em; 
-    border-radius: 5px; 
-    padding-left: 1em; 
-    cursor: text;
-} 
+
 
 ul li{ 
     margin: 1em 0 1em 1em; 
@@ -90,7 +75,6 @@ input:invalid + .error-message {
 }
 
 
-
 label {
 	font-weight: bold;
 }
@@ -98,6 +82,11 @@ input[type="checkbox"] + label,
 input[type="radio"] + label {
 	font-weight: normal; 
 }
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 .form-layout {
 	display: flex;
@@ -115,9 +104,3 @@ input[type="radio"] + label:hover {
 	cursor: pointer;
 }
 
-.actual-menu {
-	visibility: hidden;
-}
-#toggle-menu:checked + .actual-menu {
-	visibility: visible;
-}
